@@ -1,7 +1,13 @@
 # GoSF-Stack
 
 A production-ready, ultra-high-performance boilerplate and starter kit integrating **Go**lang, **S**olidJS, SolidUI, Cloud Run, and **F**irebase Hosting. Designed for microsecond-level responses, reactive UI, and fully containerized, serverless cloud deployments.
-
+<br>
+## Performance Stats
+#### API Response time (avg):
+50ms ⚡
+#### Web app:
+<img width="678" height="555" alt="image" src="https://github.com/user-attachments/assets/f8a92c3b-ec2c-492e-9a33-243c71a1367c" />
+<br>
 In modern high-performance SaaS platforms and web applications, users and systems demand near-zero latency. Traditional setups often experience performance bottlenecks at scale, leading to high cold-start latencies, bloated framework payloads, and slow API throughput.
 
 The GoSF Stack addresses these challenges by eliminating unnecessary overhead and combining:
