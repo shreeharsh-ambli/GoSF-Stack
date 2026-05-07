@@ -4,10 +4,11 @@ export interface PingResponse {
 }
 
 export async function fetchPing(): Promise<PingResponse> {
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
   const start = performance.now();
   
   try {
-    const response = await fetch('http://localhost:8080/ping');
+    const response = await fetch(`${API_BASE_URL}/ping`);
     
     if (!response.ok) throw new Error('Backend Error');
 

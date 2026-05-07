@@ -54,6 +54,19 @@ The GoSF Stack addresses these challenges by eliminating unnecessary overhead an
    ```
    Open [http://localhost:5173](http://localhost:5173) in your browser.
 
+## Building for Production
+
+To build the application for production, you need to inject the backend API URL during the build process.
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+2. Run the build command (cmd):
+   ```bash
+   set VITE_BASE_URL=url_to_your_deployed_api && npm run build
+   ```
+
 ## Project Structure
 
 ```text

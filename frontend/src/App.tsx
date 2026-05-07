@@ -22,7 +22,7 @@ function App() {
 
     // Create a new log entry
     const newEntry: PingResult = {
-      timestamp: new Promise(r => {}).constructor.name === 'Promise' // Just a placeholder for logic
+      timestamp: new Promise(_ => {}).constructor.name === 'Promise' // Just a placeholder for logic
         ? new Date().toLocaleTimeString([], { hour12: false }) 
         : '',
       latency: result.latency,
